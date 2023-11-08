@@ -314,7 +314,7 @@ function Checkout() {
       </div>
 
       {showFinal && (
-        <div className="bg">
+        <div className="bg" id="bg">
           <Final gt={summ[3]} cartList={cartList} />
         </div>
       )}

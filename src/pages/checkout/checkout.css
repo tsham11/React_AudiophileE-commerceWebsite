@@ -187,22 +187,31 @@ input[type="radio"] {
 .address {
   width: 100%;
 }
+
+#bg {
+  top: 86px;
+}
+
 @media (max-width: 1050px) {
   .Checkout {
     padding: 79px 50px 141px;
   }
+
   .check {
     width: 56%;
   }
+
   .summary {
     width: 42%;
   }
-  .err{
-    width:100%;
+
+  .err {
+    width: 100%;
   }
-    .e-money .err {
-      width: 45%;
-    }
+
+  .e-money .err {
+    width: 45%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -217,18 +226,25 @@ input[type="radio"] {
     width: 100%;
   }
 }
-@media (max-width:550px){
-  .details,.e-money{
+
+@media (max-width:550px) {
+
+  .details,
+  .e-money {
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
   }
-    .e-money .err,.options {
-      width: 100%;
-    }
-    .details{
-      margin-bottom:32px;
-    }
-    .details h4{
-      padding-bottom:10px;
-    }
+
+  .e-money .err,
+  .options {
+    width: 100%;
+  }
+
+  .details {
+    margin-bottom: 32px;
+  }
+
+  .details h4 {
+    padding-bottom: 10px;
+  }
 }
