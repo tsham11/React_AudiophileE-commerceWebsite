@@ -1,4 +1,4 @@
 # Audiophile E-commerce Website - React + Vite App
-Collaborative project
+Collaborative project.
 Live: https://tatiasalukvadze.github.io/React_AudiophileEcommerceWebsite/
 
