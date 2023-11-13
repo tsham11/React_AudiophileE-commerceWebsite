@@ -114,3 +114,18 @@ h3 {
   text-transform: uppercase;
   margin-top: 24px;
 }
+@media (max-width:570px){
+  .cart-comp {
+      width: 377px;
+        right: calc((100% - 377px)/2);
+        left: calc((100% - 377px)/2);
+    }
+}
+@media (max-width:390px) {
+  .cart-comp {
+    width: 327px;
+    padding: 25px;
+    right: calc((100% - 327px)/2);
+    left: calc((100% - 327px)/2);
+  }
+}
